@@ -1,8 +1,3 @@
-pytest_plugins = 'setuptools.tests.fixtures'
-
-
-def pytest_addoption(parser):
-    parser.addoption(
-        "--package_name", action="append", default=[],
-        help="list of package_name to pass to test functions",
-    )
+version https://git-lfs.github.com/spec/v1
+oid sha256:be10f3f9075bde92691bccabb2f0bd9af3b8c52fd3ba47fbdc037f498dd1744a
+size 223
